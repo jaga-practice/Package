@@ -6,7 +6,7 @@ R="\e[31m"
 G="\e[32m"
 Y="\e[33m"
 W="\e[0m"
-if [ $User -ne 0 ]
+if [ $user -ne 0 ]
 then
 echo "Please run the script with root access"
 exit 1
