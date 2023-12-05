@@ -31,6 +31,6 @@ echo "$Package...not installed"
 yum install $Package -y &>>Log_file
 Validate $? "$Package installation"
 else 
-echo -e "$Package...$Y already installed $w"
+echo -e "$Package...$Y already installed $W"
 fi 
 done
