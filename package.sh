@@ -1,7 +1,7 @@
 #!/bin/bash
 user=$(id -u)
 Date=$(date +"%F-%H-%M-%S")
-Log_file=$Date.log
+Log_file="$Date.log"
 R="\e[31m"
 G="\e[32m"
 Y="\e[33m"
