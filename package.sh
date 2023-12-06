@@ -28,7 +28,7 @@ yum -q list installed $Package &>/dev/null
 if [ $? -ne 0 ]
 then
 echo "$Package...not installed"
-yum install $Package -y &>>Log_file
+yum install $Package -y &>>$Log_file
 Validate $? "$Package installation"
 else 
 echo -e "$Package...$Y already installed $W"
